@@ -163,4 +163,14 @@ public class ShareMenuModule extends ReactContextBaseJavaModule implements Activ
     // Update intent in case the user calls `getSharedText` again
     currentActivity.setIntent(intent);
   }
+
+  @Override
+  public void addListener(eventType: string) {
+    // @suppress: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+  }
+
+  @Override
+  public removeListeners(count: number) {
+    // @suppress: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+  }
 }

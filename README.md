@@ -4,6 +4,12 @@
 
 Add your app as a target for sharing from other apps and write iOS Share Extensions in React Native.
 
+## Fork
+
+### Changes
+
+- added `addListener`&`removeListeners` to `ShareMenuModule`, 'cause some warnings were bugging me
+
 ## Installation
 
 ```bash
@@ -184,3 +190,6 @@ Or check the "example" directory for an example application.
 Sponsored and developed by [Meedan](http://meedan.com).
 
 iOS version maintained by [Gustavo Parreira](https://github.com/Gustash).
+
+
+
